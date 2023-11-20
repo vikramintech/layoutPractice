@@ -3,3 +3,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: aliceblue;
+}
+.container {
+  margin: 0 auto;
+  margin-top: 25px;
+  height: 500px;
+  width: 500px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  border: 0px solid red;
+  border-radius: 5px;
+  flex-basis: 101px;
+  background-color: pink;
+}
